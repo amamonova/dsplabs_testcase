@@ -36,6 +36,11 @@ Install all requirements from `requirements.txt`:
 pip install -r requirements.txt
 ```
 
+Install `ffmpeg`:
+```shell script
+brew install ffmpeg
+```
+
 Edit the `config.py`. 
 
 Run the bot:
