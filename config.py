@@ -8,7 +8,7 @@ voice or photo message
 DATABASE_NAME - name for creating database
 """
 
-CONFIG = dict(TOKEN_ID='1075047114:AAGfBzoqWfVhfQWYDvyyNU-nZ3TDw0H-ZHI',
+CONFIG = dict(TOKEN_ID='',
               DEFAULT_REQUEST_KWARGS={'proxy_url':
                                       'https://51.38.71.101:8080'},
               VOICE_FOLDER_PATH='voices',
