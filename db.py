@@ -116,10 +116,3 @@ def insert_data(conn, cursor, table_name, uid, field_name, field_data):
     except sqlite3.Error as error:
         logger.info("Failed to insert data into sqlite table", error)
 
-
-if __name__ == '__main__':
-    conn, cursor = create_conn()
-
-    sql_select = "SELECT * from voice"
-    cursor.execute(sql_select)
-    print(cursor.fetchall())
