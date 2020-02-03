@@ -2,3 +2,6 @@
 .idea/
 __pycache__/
 dsplabs_venv/
+bot.db
+photos/
+voices/
